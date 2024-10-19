@@ -1,0 +1,41 @@
+2024-10-19 15:54:52.444  INFO 2360 --- [main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2024-10-19 15:54:52.473  INFO 2360 --- [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-10-19 15:54:53.228  INFO 2360 --- [main] o.s.s.web.DefaultSecurityFilterChain     : Will secure any request with [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@62b0792, org.springframework.security.web.context.SecurityContextPersistenceFilter@7789526e, org.springframework.security.web.header.HeaderWriterFilter@57063e08, org.springframework.security.web.authentication.logout.LogoutFilter@4645a575, org.springframework.security.web.authentication.www.BasicAuthenticationFilter@2aeb3f3b, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@1e9a10e9, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@233d2b76, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@2fd409c1, org.springframework.security.web.session.SessionManagementFilter@52b7c1d9, org.springframework.security.web.access.ExceptionTranslationFilter@2c3d0ff8, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@3eadfbbb]
+2024-10-19 15:54:53.313  WARN 2360 --- [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2024-10-19 15:54:53.852  INFO 2360 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring TestDispatcherServlet ''
+2024-10-19 15:54:53.852  INFO 2360 --- [main] o.s.t.web.servlet.TestDispatcherServlet  : Initializing Servlet ''
+2024-10-19 15:54:53.852  INFO 2360 --- [main] o.s.t.web.servlet.TestDispatcherServlet  : Completed initialization in 0 ms
+2024-10-19 15:54:53.943  INFO 2360 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 54508 (http) with context path ''
+2024-10-19 15:54:53.952  INFO 2360 --- [main] s.s.controller.AuthControllerTest        : Started AuthControllerTest in 5.331 seconds (JVM running for 7.537)
+2024-10-19 15:54:53.999  WARN 2360 --- [main] s.s.controller.AuthController            : Empty or null token received from AuthService
+2024-10-19 15:54:54.065  INFO 2360 --- [SpringApplicationShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2024-10-19 15:54:54.067  INFO 2360 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2024-10-19 15:54:54.074  INFO 2360 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2024-10-19 16:04:23.212  INFO 14148 --- [main] s.s.controller.AuthControllerTest        : Starting AuthControllerTest using Java 17.0.8 on LAPTOP-11MISHQ7 with PID 14148 (started by Aidil Adam in E:\Study Case BE PT. Kinnara\aplikasi-apistudycase-springbeaidil\aplikasi-apistudycase-springbeaidil)
+2024-10-19 16:04:23.212  INFO 14148 --- [main] s.s.controller.AuthControllerTest        : No active profile set, falling back to default profiles: default
+2024-10-19 16:04:24.053  INFO 14148 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-10-19 16:04:24.147  INFO 14148 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 78 ms. Found 2 JPA repository interfaces.
+2024-10-19 16:04:25.100  INFO 14148 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 0 (http)
+2024-10-19 16:04:25.115  INFO 14148 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2024-10-19 16:04:25.115  INFO 14148 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.56]
+2024-10-19 16:04:25.225  INFO 14148 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2024-10-19 16:04:25.225  INFO 14148 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1997 ms
+2024-10-19 16:04:25.521  INFO 14148 --- [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2024-10-19 16:04:25.584  INFO 14148 --- [main] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 5.6.4.Final
+2024-10-19 16:04:25.631  INFO 14148 --- [main] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2024-10-19 16:04:25.756  INFO 14148 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2024-10-19 16:04:25.928  INFO 14148 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2024-10-19 16:04:25.943  INFO 14148 --- [main] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.MySQL5InnoDBDialect
+2024-10-19 16:04:26.579  INFO 14148 --- [main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2024-10-19 16:04:26.594  INFO 14148 --- [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-10-19 16:04:27.282  INFO 14148 --- [main] o.s.s.web.DefaultSecurityFilterChain     : Will secure any request with [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@22f0e329, org.springframework.security.web.context.SecurityContextPersistenceFilter@6e475994, org.springframework.security.web.header.HeaderWriterFilter@55cf5626, org.springframework.security.web.authentication.logout.LogoutFilter@543a7605, org.springframework.security.web.authentication.www.BasicAuthenticationFilter@5f6ba085, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@32084a01, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@66d73e2d, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@3b39bee2, org.springframework.security.web.session.SessionManagementFilter@144792d5, org.springframework.security.web.access.ExceptionTranslationFilter@6164b3a2, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@623d222]
+2024-10-19 16:04:27.375  WARN 14148 --- [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2024-10-19 16:04:27.875  INFO 14148 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring TestDispatcherServlet ''
+2024-10-19 16:04:27.875  INFO 14148 --- [main] o.s.t.web.servlet.TestDispatcherServlet  : Initializing Servlet ''
+2024-10-19 16:04:27.875  INFO 14148 --- [main] o.s.t.web.servlet.TestDispatcherServlet  : Completed initialization in 0 ms
+2024-10-19 16:04:27.953  INFO 14148 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 54567 (http) with context path ''
+2024-10-19 16:04:27.969  INFO 14148 --- [main] s.s.controller.AuthControllerTest        : Started AuthControllerTest in 5.169 seconds (JVM running for 7.011)
+2024-10-19 16:04:28.000  WARN 14148 --- [main] s.s.controller.AuthController            : Authentication failed for user: testuser
+2024-10-19 16:04:28.078  INFO 14148 --- [SpringApplicationShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2024-10-19 16:04:28.078  INFO 14148 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2024-10-19 16:04:28.078  INFO 14148 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
